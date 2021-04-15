@@ -1,0 +1,25 @@
+{
+  "name": "electron_cytoscape",
+  "version": "1.0.0",
+  "description": "package_for_electron_p",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "alexis andreani",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cytoscape": "^3.18.2",
+    "cytoscape-qtip": "^2.8.0",
+    "cytoscape-view-utilities": "^5.0.0",
+    "eslint": "^7.23.0",
+    "jquery": "^3.6.0",
+    "mkdirp": "^1.0.4",
+    "qtip2": "^3.0.3",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}
